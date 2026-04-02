@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Add Student Result</h2>
+
+<input id="roll" placeholder="Roll Number">
+
+<input id="name" placeholder="Student Name">
+
+<div id="subjects"></div>
+
+<button onclick="addSubject()">Add Subject</button>
+
+<button onclick="saveStudent()">Save Result</button>
+
+<h3>Students</h3>
+
+<table id="studentTable">
+
+<thead>
+
+<tr>
+<th>Roll</th>
+<th>Name</th>
+<th>Actions</th>
+</tr>
+
+</thead>
+
+<tbody></tbody>
+
+</table>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
